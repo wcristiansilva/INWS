@@ -18,3 +18,10 @@ nav#menu a {
 nav#menu li:hover {
     background-color: orangered;
 }
+
+/* Caixa de Busca */
+
+div#search {
+    position: absolute;
+    
+}
