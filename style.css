@@ -38,7 +38,7 @@ nav#menu a {
 
 nav#menu a:hover {
     color: white;
-    text-decoration: blue;
+    text-decoration: underline,blue;
 }
 
 nav#menu li:hover {
