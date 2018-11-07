@@ -38,7 +38,7 @@ nav#menu a {
 
 nav#menu a:hover {
     color: white;
-    text-decoration: underline;
+    text-decoration: orangered;
 }
 
 nav#menu li:hover {
