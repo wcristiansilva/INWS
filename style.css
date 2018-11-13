@@ -1,11 +1,11 @@
 @charset "UTF-8";
+
 /* Cabeçalho */
 
 header#foto-cabeçalho img {
     width: 1500px;
     height: 350px;
 }
-
 
 /* Menu superior */
 
@@ -55,4 +55,14 @@ div#search {
     top: 50px;
     left: 610px;
     
+}
+
+/* Rodapé */
+
+footer#rodape {
+
+}
+
+footer#rodape p {
+
 }
