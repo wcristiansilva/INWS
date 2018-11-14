@@ -10,7 +10,7 @@ div#conteudo {
     background-color: white;
     margin: -23px auto 0px auto;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.5); /* O valor 0.5 vai de 0 a 1 que é seu maximo em transparência */
-    padding: 10px;
+    padding: 10px 10px 0px 10px;
 }
 
 /* Cabeçalho */
@@ -18,9 +18,16 @@ div#conteudo {
 header#foto-cabeçalho img {
     width: 900px;
     height: 250px;
+    padding: 0px 0px 10px 0px;
+    /*border-bottom: 3px solid orangered;*/
 }
 
 /* Menu superior */
+
+nav {
+    border-top: 3px solid lightgrey /* rgba(0,0,0,.08)*/;
+    margin-top: 27px;
+}
 
 nav#menu ul {
     display: block;
@@ -30,32 +37,39 @@ nav#menu ul {
     list-style: none;
     text-transform: uppercase;
     position: absolute;
-    top: 228px; /*definir o local do menu*/
-    left: 300px;
-    /*right: ; */
+    top: 229px; /*definir o local do menu*/
+    left: 300px;   
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 nav#menu li {
     display: inline-block;
-    background-color: lightgray;
-    padding: 10px; /* controla o espaço dentro do elemento */
-    margin: 1px; /* controla o espaço por fora do elemento */
-    transition: background-color 1s; /* faz o efeito de transição do background do menu "Prefixr pra ter uma certa compatibilidade com navegadores mais antigos" */
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    padding: 10px 0px 10px 0px;
+    margin: 3px;
 }
 
 nav#menu a {
     color: black;
-    text-decoration: none;
-    font-family: Arial;
+	font-family: Helvetica;
+	text-decoration: none;
+	font-weight: bold;
+	font-style: normal;
+	padding: 15px 2px 15px 2px;
 }
 
 nav#menu a:hover {
-    color: white;
+    color: orangered;
     
 }
 
 nav#menu li:hover {
-    background-color: orangered;
+    /*border-top: 3px solid orangered;*/
+	border-right: 2px solid rgba(0,0,0,.08);
+    border-left: 2px solid rgba(0,0,0,.08);
+    border-bottom: 2px solid orangered;
 }
 
 nav#menu h1{
@@ -70,15 +84,33 @@ div#search {
     
 }
 
+/* aside */
+
+aside#lateral {
+    
+}
+
+aside#lateral section#section-lateral {
+    
+}
+
+/* section */
+
+section#conteudo {
+    
+}
+
 /* Rodapé */
 
-footer#rodape p {
+footer#rodape {
+    background-color: orangered;
     clear: both;
-    border-top: 1px solid orangered;
-    padding: 10px;
+    border-top: 2px solid gray;
+    width: 800px;
+    padding: 10px 50px 20px 50px;
 }
 
 footer#rodape p {
-    text-align: center
-    /*font-size: 12px;*/
+    font-size: 12pt;
+    text-align: center;
 }
