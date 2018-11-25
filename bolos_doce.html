@@ -1,45 +1,55 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8"/>
-		<meta names="Willer Paternostro, Mariana Godoy, William Cristian"/>
-		<meta date="29/10/2018"/>
-		<meta headwords="Receitas, bolos"/>
-		<title>Receita Bolícias</title>
-	</head>
+<<html lang="pt-br">
+<head>
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta names="Willer Paternostro, Mariana Godoy, William Cristian"/>
+	<meta date="29/10/2018"/>
+	<meta keywords="Receitas, bolos"/>
+	<title>Receita Bolícias</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="menu.css">
+</head>
 	<body>
+	<div class="container-fluid">
 		<header>
-				<img src="imagens_bolo\bolo_capa.jpg" width="1200 px" height="250 px" />
-
-			<div class="search">
-				<form action="/busca" id="procurar" method="get">
-					<input type="text" name="p_receita" id="buscar_receita" placeholder="Encontre uma receita...">
-					<input type="submit" value="Buscar">
-				</form>
+			<div class="row cabeçalho">
+				<div class="col">
+					<img src="imagens_bolo\bolo_capa.jpg" width="100%" height="250 px" />
+				</div>
 			</div>
-			<nav class="menu">
-			<ul>
-				<li>
-					<a href="projeto_bolo.html">Página Inicial</a>
+		</header>
+		<div>
+			<div class="row menu pesquisa">
+				<div class="col">
+					<div
+							class="navbar navbar-expand-lg navbar-dark"
+							style="background-color:#FF8000;">
 
-				</li>
-				<li>
-					<a href="bolos_doce.html">Bolos Doces</a>
-				</li>
-				<li>
-					<a href="bolos_salgados.html">Bolos Salgados</a>
-				</li>
-				<li>
-					<a href="bolos_veganos.html">Bolos Veganos</a>
-				</li>
-				<li>
-					<a href="cadastro.html">Cadastre-se</a>
-				</li>
-				<li>
-					<a href="login.html">Login</a>
-				</li>
-			</ul>
-		</nav>
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item">
+								<a class="nav-link text-white" href="principal.html"
+								>Página principal</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white" href="detalhes_receitas.html"
+								>Detalhes de receitas</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white" href="#">Impressão de receitas</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white" href="cadastro.html">Cadastrar receita</a>
+							</li>
+						</ul>
+						<form class="form-inline my-2 my-lg-0">
+							<input class="form-control mr-sm-2" type="search" placeholder="Pesquisar receita" aria-label="Pesquisar">
+							<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+						</form>
+					</div>
+				</div>
+			</div>
 			<section>
 				<article class="Merengue">
 					<header>
@@ -63,10 +73,16 @@
 					</header>
 				</article>
 			</section>
-			<footer>
-			<p>
-				© COPYRIGHT 2000-2018 BOLÍCIAS INTERNET LTDA, TODOS OS DIREITOS RESERVADOS. PROIBIDA A REPRODUÇÃO SEM AUTORIZAÇÃO.
-			</p>
-		</footer>
-	</body>
+        </div>
+    </div>
+   	<footer>
+        <div class="row"style="background-color:#FF8000;color: white;">
+            <div class="col">
+                <p>
+                    © COPYRIGHT 2000-2018 BOLÍCIAS INTERNET LTDA, TODOS OS DIREITOS RESERVADOS. PROIBIDA A REPRODUÇÃO SEM AUTORIZAÇÃO.
+                </p>
+            </div>
+        </div>
+    </footer>
+    </body>
 </html>
